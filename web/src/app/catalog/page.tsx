@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import {
   byShopworthiness,
@@ -8,7 +7,6 @@ import {
   searchProducts,
 } from '@/lib/catalog';
 import { ProductCard } from '@/components/ProductCard';
-import { SearchBar } from '@/components/SearchBar';
 
 // Stock and merchant price edits must surface quickly, so this page is
 // revalidated every minute rather than hourly. Checkout re-validates stock
@@ -101,11 +99,8 @@ export default async function CatalogPage({
         </p>
       </header>
 
-      <div className="mt-5 lg:hidden">
-        <Suspense fallback={<div className="h-11 rounded-lg bg-white" />}>
-          <SearchBar />
-        </Suspense>
-      </div>
+      {/* The header carries the search field at every breakpoint, so this page
+          does not repeat it. */}
 
       <div className="mt-6 grid gap-8 lg:grid-cols-[220px_1fr]">
         {/* ------------------------------------------------------- filters */}

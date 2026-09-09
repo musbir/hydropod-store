@@ -254,8 +254,9 @@ export function CheckoutForm({
           </button>
 
           <p className="mt-3 text-[11px] leading-relaxed text-ink-faint">
-            By placing this order you accept our terms of sale. Prices include
-            GST as shown. You will receive an order confirmation by email.
+            By placing this order you accept our terms of sale. Listed prices
+            are exclusive of GST, which is shown separately above. You will
+            receive an order confirmation by email.
           </p>
         </div>
       </aside>
