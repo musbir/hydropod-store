@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-sand text-ink antialiased;
+}
+
+/* Keyboard focus that is visible on both the sand and aqua surfaces. */
+:focus-visible {
+  outline: 2px solid theme('colors.aqua.500');
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+@layer components {
+  .shell {
+    @apply mx-auto w-full max-w-shell px-4 sm:px-6;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2.5
+           text-sm font-semibold transition-colors disabled:cursor-not-allowed
+           disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn bg-aqua-600 text-white hover:bg-aqua-700;
+  }
+  .btn-secondary {
+    @apply btn border border-ink/15 bg-white text-ink hover:border-ink/30 hover:bg-white;
+  }
+  .btn-ghost {
+    @apply btn text-ink-soft hover:bg-ink/5 hover:text-ink;
+  }
+
+  .card {
+    @apply rounded-xl border border-ink/10 bg-white shadow-card;
+  }
+
+  .field {
+    @apply w-full rounded-lg border border-ink/15 bg-white px-3 py-2.5 text-sm
+           text-ink placeholder:text-ink-faint focus:border-aqua-400
+           focus:outline-none focus:ring-2 focus:ring-aqua-200;
+  }
+
+  .label {
+    @apply mb-1.5 block text-xs font-semibold uppercase tracking-wide text-ink-soft;
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-full px-2.5 py-1 text-xs font-medium;
+  }
+}
+
+/* Product gallery: keep the aspect box stable while images load. */
+.media-box {
+  @apply relative overflow-hidden rounded-lg bg-white;
+  aspect-ratio: 1 / 1;
+}
+.media-box img {
+  @apply h-full w-full object-contain;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

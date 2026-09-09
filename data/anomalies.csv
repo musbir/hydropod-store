@@ -1,0 +1,79 @@
+sku,handle,severity,field,issue,action
+HP-PWR-CUSTOM,customize-your-own-power-pod,medium,price,Placeholder public price [100.0] on a quote-led system,merchandised as Request a Quote
+HP-PWR-CUSTOM,customize-your-own-power-pod,medium,sku,No SKU on any variant at source,assigned HP-PWR-CUSTOM
+HP-PWR-CUSTOM,customize-your-own-power-pod,medium,availability,Unavailable at source with no reason given,"stock 0, shown as Out of stock"
+HP-PWR-FILTHEXA,filt-pod-hexa-pod,medium,price,Placeholder public price [100.0] on a quote-led system,merchandised as Request a Quote
+HP-PWR-FILTHEXA,filt-pod-hexa-pod,medium,sku,No SKU on any variant at source,assigned HP-PWR-FILTHEXA
+HP-PWR-FILTHEXA,filt-pod-hexa-pod,medium,availability,Unavailable at source with no reason given,"stock 0, shown as Out of stock"
+HP-PWR-CARBOPURPLE,carbo-pod-purple-pod,medium,price,Placeholder public price [100.0] on a quote-led system,merchandised as Request a Quote
+HP-PWR-CARBOPURPLE,carbo-pod-purple-pod,medium,sku,No SKU on any variant at source,assigned HP-PWR-CARBOPURPLE
+HP-PWR-CARBOPURPLE,carbo-pod-purple-pod,medium,availability,Unavailable at source with no reason given,"stock 0, shown as Out of stock"
+HP-PWR-FILTPURPLE,filt-pod-purple-pod,medium,price,Placeholder public price [0.0] on a quote-led system,merchandised as Request a Quote
+HP-PWR-FILTPURPLE,filt-pod-purple-pod,medium,sku,No SKU on any variant at source,assigned HP-PWR-FILTPURPLE
+HP-PWR-FILTPURPLE,filt-pod-purple-pod,medium,availability,Unavailable at source with no reason given,"stock 0, shown as Out of stock"
+,filt-pod-copy,high,duplicate,"Duplicate of 'carbo-pod' (copied handle, same media, 8.3x price)",dropped from catalog
+,twin-valve,low,category,Not a member of any source collection,assigned to Control Valves from its product tag
+HP-VLV-TWIN,twin-valve,medium,description,No 'About this product' block on the PDP,fell back to schema.org Product description
+HP-VLV-TWIN,twin-valve,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-VLV-TWIN,twin-valve,medium,sku,No SKU on any variant at source,assigned HP-VLV-TWIN
+HP-VLV-TWIN,twin-valve,medium,availability,Unavailable at source with no reason given,"stock 0, shown as Out of stock"
+HP-VLV-SOFT,softner-valve,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-VLV-SOFT,softner-valve,medium,sku,No SKU on any variant at source,assigned HP-VLV-SOFT
+HP-VLV-FILT,filter-valve,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-VLV-FILT,filter-valve,medium,sku,No SKU on any variant at source,assigned HP-VLV-FILT
+HP-DEF-HEAVYMETAL,heavy-metal-removal,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-DEF-HEAVYMETAL,heavy-metal-removal,medium,sku,No SKU on any variant at source,assigned HP-DEF-HEAVYMETAL
+HP-DEF-URANIUM,uranium-removal,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-DEF-URANIUM,uranium-removal,medium,sku,No SKU on any variant at source,assigned HP-DEF-URANIUM
+HP-DEF-URANIUM,uranium-removal,medium,availability,Unavailable at source with no reason given,"stock 0, shown as Out of stock"
+HP-DEF-NITRATE,nitrate-removal,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-DEF-NITRATE,nitrate-removal,medium,sku,No SKU on any variant at source,assigned HP-DEF-NITRATE
+HP-DEF-FLUORIDE,fluoride-removal,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-DEF-FLUORIDE,fluoride-removal,medium,sku,No SKU on any variant at source,assigned HP-DEF-FLUORIDE
+HP-DEF-IRON,iron-removal,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-DEF-IRON,iron-removal,medium,sku,No SKU on any variant at source,assigned HP-DEF-IRON
+HP-DEF-ARSENIC,arsenic-removal,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-DEF-ARSENIC,arsenic-removal,medium,sku,No SKU on any variant at source,assigned HP-DEF-ARSENIC
+HP-ACC-SALT,salt-pellets,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-ACC-SALT,salt-pellets,medium,sku,No SKU on any variant at source,assigned HP-ACC-SALT
+HP-ACC-LIQ,liquicharge,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-ACC-LIQ,liquicharge,medium,sku,No SKU on any variant at source,assigned HP-ACC-LIQ
+HP-ACC-RESIN,ion-exchange-resins,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-ACC-RESIN,ion-exchange-resins,medium,sku,No SKU on any variant at source,assigned HP-ACC-RESIN
+HP-ACC-MEDIA,filtration-media,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-ACC-MEDIA,filtration-media,medium,sku,No SKU on any variant at source,assigned HP-ACC-MEDIA
+HP-DIP-CHAM,d-ionpure-chameleon,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-DIP-CHAM,d-ionpure-chameleon,medium,sku,No SKU on any variant at source,assigned HP-DIP-CHAM
+HP-DIP-CAPS,d-ionpure-capsule,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-DIP-CAPS,d-ionpure-capsule,medium,sku,No SKU on any variant at source,assigned HP-DIP-CAPS
+HP-DIP-JUMBO,d-ionpure-jumbo,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-DIP-JUMBO,d-ionpure-jumbo,medium,sku,No SKU on any variant at source,assigned HP-DIP-JUMBO
+HP-DIP-CART,d-ionpure-cartridge,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-DIP-CART,d-ionpure-cartridge,medium,sku,No SKU on any variant at source,assigned HP-DIP-CART
+,power-pods,low,category,Not a member of any source collection,assigned to Power Pods from its product tag
+HP-PWR-BASE,power-pods,medium,price,"Placeholder public price [200.0, 940.0, 500.0] on a quote-led system",merchandised as Request a Quote
+HP-PWR-BASE,power-pods,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-PWR-BASE,power-pods,medium,sku,No SKU on any variant at source,assigned HP-PWR-BASE
+HP-SFT-OPTI,opti-pod,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-SFT-OPTI,opti-pod,medium,sku,No SKU on any variant at source,assigned HP-SFT-OPTI
+HP-SFT-HEXA,hexa-pod,low,schema_category,JSON-LD category is theme boilerplate 'Balance Boards',discarded
+HP-SFT-HEXA,hexa-pod,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-SFT-HEXA,hexa-pod,medium,sku,No SKU on any variant at source,assigned HP-SFT-HEXA
+HP-SFT-PURPLE,purple-pod,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-SFT-PURPLE,purple-pod,medium,sku,No SKU on any variant at source,assigned HP-SFT-PURPLE
+HP-SFT-AMBER,amber-pod,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-SFT-AMBER,amber-pod,medium,sku,No SKU on any variant at source,assigned HP-SFT-AMBER
+HP-CAP-IRON,iron-buster,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-CAP-IRON,iron-buster,medium,sku,No SKU on any variant at source,assigned HP-CAP-IRON
+HP-CAP-HEXA,hexa-buster,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-CAP-HEXA,hexa-buster,medium,sku,No SKU on any variant at source,assigned HP-CAP-HEXA
+HP-CAP-PURPLE,purple-cap,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-CAP-PURPLE,purple-cap,medium,sku,No SKU on any variant at source,assigned HP-CAP-PURPLE
+HP-CAP-AMBER,amber-cap,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-CAP-AMBER,amber-cap,medium,sku,No SKU on any variant at source,assigned HP-CAP-AMBER
+HP-FLT-IRON,iron-pod-1,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-FLT-IRON,iron-pod-1,medium,sku,No SKU on any variant at source,assigned HP-FLT-IRON
+HP-FLT-CARBO,carbo-pod,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-FLT-CARBO,carbo-pod,medium,sku,No SKU on any variant at source,assigned HP-FLT-CARBO
+HP-FLT-FILT,filt-pod-1,low,vendor,Vendor is the Shopify default 'My Store',normalised to Hydropod
+HP-FLT-FILT,filt-pod-1,medium,sku,No SKU on any variant at source,assigned HP-FLT-FILT

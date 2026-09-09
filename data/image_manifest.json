@@ -1,0 +1,1342 @@
+{
+  "HP-PWR-CUSTOM": [
+    {
+      "position": 1,
+      "alt": "Customize your own Power Pod - Power Pods water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-pwr-custom-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-pwr-custom-1.webp",
+        "800": "/images/products/hp-pwr-custom-1-800.webp",
+        "400": "/images/products/hp-pwr-custom-1-400.webp"
+      },
+      "width": 1066,
+      "height": 1600,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/images_6.jpg?v=1760101385"
+    },
+    {
+      "position": 2,
+      "alt": "Customize your own Power Pod - Power Pods water treatment system by Hydropod, view 2",
+      "src": "/images/products/hp-pwr-custom-2.webp",
+      "srcset": {
+        "1200": "/images/products/hp-pwr-custom-2.webp",
+        "800": "/images/products/hp-pwr-custom-2-800.webp",
+        "400": "/images/products/hp-pwr-custom-2-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_1_11952eb0-ae9e-47a0-9fbd-02003f456565.png?v=1760101385"
+    }
+  ],
+  "HP-PWR-FILTHEXA": [
+    {
+      "position": 1,
+      "alt": "Filt Pod + Hexa Pod - Power Pods water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-pwr-filthexa-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-pwr-filthexa-1.webp",
+        "800": "/images/products/hp-pwr-filthexa-1-800.webp",
+        "400": "/images/products/hp-pwr-filthexa-1-400.webp"
+      },
+      "width": 1066,
+      "height": 1600,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/images_6.jpg?v=1760101385"
+    },
+    {
+      "position": 2,
+      "alt": "Filt Pod + Hexa Pod - Power Pods water treatment system by Hydropod, view 2",
+      "src": "/images/products/hp-pwr-filthexa-2.webp",
+      "srcset": {
+        "1200": "/images/products/hp-pwr-filthexa-2.webp",
+        "800": "/images/products/hp-pwr-filthexa-2-800.webp",
+        "400": "/images/products/hp-pwr-filthexa-2-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_1_11952eb0-ae9e-47a0-9fbd-02003f456565.png?v=1760101385"
+    }
+  ],
+  "HP-PWR-CARBOPURPLE": [
+    {
+      "position": 1,
+      "alt": "Carbo Pod + Purple Pod - Power Pods water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-pwr-carbopurple-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-pwr-carbopurple-1.webp",
+        "800": "/images/products/hp-pwr-carbopurple-1-800.webp",
+        "400": "/images/products/hp-pwr-carbopurple-1-400.webp"
+      },
+      "width": 1066,
+      "height": 1600,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/images_6.jpg?v=1760101385"
+    },
+    {
+      "position": 2,
+      "alt": "Carbo Pod + Purple Pod - Power Pods water treatment system by Hydropod, view 2",
+      "src": "/images/products/hp-pwr-carbopurple-2.webp",
+      "srcset": {
+        "1200": "/images/products/hp-pwr-carbopurple-2.webp",
+        "800": "/images/products/hp-pwr-carbopurple-2-800.webp",
+        "400": "/images/products/hp-pwr-carbopurple-2-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_1_11952eb0-ae9e-47a0-9fbd-02003f456565.png?v=1760101385"
+    }
+  ],
+  "HP-PWR-FILTPURPLE": [
+    {
+      "position": 1,
+      "alt": "Filt Pod + Purple Pod - Power Pods water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-pwr-filtpurple-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-pwr-filtpurple-1.webp",
+        "800": "/images/products/hp-pwr-filtpurple-1-800.webp",
+        "400": "/images/products/hp-pwr-filtpurple-1-400.webp"
+      },
+      "width": 1066,
+      "height": 1600,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/images_6.jpg?v=1760101385"
+    },
+    {
+      "position": 2,
+      "alt": "Filt Pod + Purple Pod - Power Pods water treatment system by Hydropod, view 2",
+      "src": "/images/products/hp-pwr-filtpurple-2.webp",
+      "srcset": {
+        "1200": "/images/products/hp-pwr-filtpurple-2.webp",
+        "800": "/images/products/hp-pwr-filtpurple-2-800.webp",
+        "400": "/images/products/hp-pwr-filtpurple-2-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_1_11952eb0-ae9e-47a0-9fbd-02003f456565.png?v=1760101385"
+    }
+  ],
+  "HP-VLV-TWIN": [
+    {
+      "position": 1,
+      "alt": "Twin Valve - Control Valves water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-vlv-twin-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-vlv-twin-1.webp",
+        "800": "/images/products/hp-vlv-twin-1-800.webp",
+        "400": "/images/products/hp-vlv-twin-1-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_22_9be7b0da-85c4-4c56-8c78-4bbfbdb04dc2.png?v=1758791632"
+    }
+  ],
+  "HP-VLV-SOFT": [
+    {
+      "position": 1,
+      "alt": "Softener Valve - Control Valves water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-vlv-soft-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-vlv-soft-1.webp",
+        "800": "/images/products/hp-vlv-soft-1-800.webp",
+        "400": "/images/products/hp-vlv-soft-1-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_25_246f18a8-d1ea-437c-a9a5-6ffd426b5b83.png?v=1758791632"
+    }
+  ],
+  "HP-VLV-FILT": [
+    {
+      "position": 1,
+      "alt": "Filter Valve - Control Valves water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-vlv-filt-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-vlv-filt-1.webp",
+        "800": "/images/products/hp-vlv-filt-1-800.webp",
+        "400": "/images/products/hp-vlv-filt-1-400.webp"
+      },
+      "width": 600,
+      "height": 650,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/WhatsAppImage2025-10-07at12.02.06PM.jpg?v=1759821698"
+    }
+  ],
+  "HP-DEF-HEAVYMETAL": [
+    {
+      "position": 1,
+      "alt": "Heavy Metal Removal - Defender water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-def-heavymetal-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-def-heavymetal-1.webp",
+        "800": "/images/products/hp-def-heavymetal-1-800.webp",
+        "400": "/images/products/hp-def-heavymetal-1-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILTPOD_5.png?v=1758543081"
+    }
+  ],
+  "HP-DEF-URANIUM": [
+    {
+      "position": 1,
+      "alt": "Uranium Removal - Defender water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-def-uranium-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-def-uranium-1.webp",
+        "800": "/images/products/hp-def-uranium-1-800.webp",
+        "400": "/images/products/hp-def-uranium-1-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILTPOD_4.png?v=1758543058"
+    }
+  ],
+  "HP-DEF-NITRATE": [
+    {
+      "position": 1,
+      "alt": "Nitrate Removal - Defender water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-def-nitrate-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-def-nitrate-1.webp",
+        "800": "/images/products/hp-def-nitrate-1-800.webp",
+        "400": "/images/products/hp-def-nitrate-1-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILTPOD_3.png?v=1758542895"
+    }
+  ],
+  "HP-DEF-FLUORIDE": [
+    {
+      "position": 1,
+      "alt": "Fluoride Removal - Defender water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-def-fluoride-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-def-fluoride-1.webp",
+        "800": "/images/products/hp-def-fluoride-1-800.webp",
+        "400": "/images/products/hp-def-fluoride-1-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILTPOD_2.png?v=1758542788"
+    }
+  ],
+  "HP-DEF-IRON": [
+    {
+      "position": 1,
+      "alt": "Iron Removal - Defender water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-def-iron-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-def-iron-1.webp",
+        "800": "/images/products/hp-def-iron-1-800.webp",
+        "400": "/images/products/hp-def-iron-1-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILTPOD_1.png?v=1758542719"
+    }
+  ],
+  "HP-DEF-ARSENIC": [
+    {
+      "position": 1,
+      "alt": "Arsenic Removal - Defender water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-def-arsenic-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-def-arsenic-1.webp",
+        "800": "/images/products/hp-def-arsenic-1-800.webp",
+        "400": "/images/products/hp-def-arsenic-1-400.webp"
+      },
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/Hydropod_1_be30ffa8-92d7-4495-961c-e94bf031b0c4.png?v=1760101663"
+    }
+  ],
+  "HP-ACC-SALT": [
+    {
+      "position": 1,
+      "alt": "Salt Pellets - Essential Accessories water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-acc-salt-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-acc-salt-1.webp",
+        "800": "/images/products/hp-acc-salt-1-800.webp",
+        "400": "/images/products/hp-acc-salt-1-400.webp"
+      },
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/Hydropod_1.png?v=1759555534"
+    }
+  ],
+  "HP-ACC-LIQ": [
+    {
+      "position": 1,
+      "alt": "LiquiCharge - Essential Accessories water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-acc-liq-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-acc-liq-1.webp",
+        "800": "/images/products/hp-acc-liq-1-800.webp",
+        "400": "/images/products/hp-acc-liq-1-400.webp"
+      },
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/Hydropod_4.png?v=1759556715"
+    }
+  ],
+  "HP-ACC-RESIN": [
+    {
+      "position": 1,
+      "alt": "Ion Exchange Resins - Essential Accessories water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-acc-resin-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-acc-resin-1.webp",
+        "800": "/images/products/hp-acc-resin-1-800.webp",
+        "400": "/images/products/hp-acc-resin-1-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_18_7e8de3bb-fcaa-4566-bb9b-1db96801dc46.png?v=1758791632"
+    }
+  ],
+  "HP-ACC-MEDIA": [
+    {
+      "position": 1,
+      "alt": "Filtration Media - Essential Accessories water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-acc-media-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-acc-media-1.webp",
+        "800": "/images/products/hp-acc-media-1-800.webp",
+        "400": "/images/products/hp-acc-media-1-400.webp"
+      },
+      "width": 1200,
+      "height": 1600,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/images_2.jpg?v=1757426099"
+    }
+  ],
+  "HP-DIP-CHAM": [
+    {
+      "position": 1,
+      "alt": "D-Ionpure Chameleon - D-Ionpure water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-dip-cham-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-dip-cham-1.webp",
+        "800": "/images/products/hp-dip-cham-1-800.webp",
+        "400": "/images/products/hp-dip-cham-1-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILTPOD_9.png?v=1758545337"
+    }
+  ],
+  "HP-DIP-CAPS": [
+    {
+      "position": 1,
+      "alt": "D-Ionpure Capsule - D-Ionpure water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-dip-caps-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-dip-caps-1.webp",
+        "800": "/images/products/hp-dip-caps-1-800.webp",
+        "400": "/images/products/hp-dip-caps-1-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILTPOD_10.png?v=1758545457"
+    }
+  ],
+  "HP-DIP-JUMBO": [
+    {
+      "position": 1,
+      "alt": "D-Ionpure Jumbo - D-Ionpure water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-dip-jumbo-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-dip-jumbo-1.webp",
+        "800": "/images/products/hp-dip-jumbo-1-800.webp",
+        "400": "/images/products/hp-dip-jumbo-1-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILTPOD_8.png?v=1758545205"
+    }
+  ],
+  "HP-DIP-CART": [
+    {
+      "position": 1,
+      "alt": "D-Ionpure Cartridge - D-Ionpure water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-dip-cart-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-dip-cart-1.webp",
+        "800": "/images/products/hp-dip-cart-1-800.webp",
+        "400": "/images/products/hp-dip-cart-1-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILTPOD_11.png?v=1758545594"
+    }
+  ],
+  "HP-PWR-BASE": [
+    {
+      "position": 1,
+      "alt": "Power Pods - Power Pods water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-pwr-base-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-pwr-base-1.webp",
+        "800": "/images/products/hp-pwr-base-1-800.webp",
+        "400": "/images/products/hp-pwr-base-1-400.webp"
+      },
+      "width": 1066,
+      "height": 1600,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/images_6.jpg?v=1760101385"
+    },
+    {
+      "position": 2,
+      "alt": "Power Pods - Power Pods water treatment system by Hydropod, view 2",
+      "src": "/images/products/hp-pwr-base-2.webp",
+      "srcset": {
+        "1200": "/images/products/hp-pwr-base-2.webp",
+        "800": "/images/products/hp-pwr-base-2-800.webp",
+        "400": "/images/products/hp-pwr-base-2-400.webp"
+      },
+      "width": 750,
+      "height": 750,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/resized-image.png?v=1760101146"
+    }
+  ],
+  "HP-SFT-OPTI": [
+    {
+      "position": 1,
+      "alt": "Opti Pod - HydroSoft water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-sft-opti-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-opti-1.webp",
+        "800": "/images/products/hp-sft-opti-1-800.webp",
+        "400": "/images/products/hp-sft-opti-1-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_14.png?v=1758610559"
+    },
+    {
+      "position": 2,
+      "alt": "Opti Pod - HydroSoft water treatment system by Hydropod, view 2",
+      "src": "/images/products/hp-sft-opti-2.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-opti-2.webp",
+        "800": "/images/products/hp-sft-opti-2-800.webp",
+        "400": "/images/products/hp-sft-opti-2-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_24_3a8133d2-a48c-451f-9493-fe466dd8b078.png?v=1758791632"
+    },
+    {
+      "position": 3,
+      "alt": "Opti Pod - HydroSoft water treatment system by Hydropod, view 3",
+      "src": "/images/products/hp-sft-opti-3.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-opti-3.webp",
+        "800": "/images/products/hp-sft-opti-3-800.webp",
+        "400": "/images/products/hp-sft-opti-3-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_26_685f9797-5c21-4d68-b749-8520dc9917a9.png?v=1758791632"
+    },
+    {
+      "position": 4,
+      "alt": "Opti Pod - HydroSoft water treatment system by Hydropod, view 4",
+      "src": "/images/products/hp-sft-opti-4.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-opti-4.webp",
+        "800": "/images/products/hp-sft-opti-4-800.webp",
+        "400": "/images/products/hp-sft-opti-4-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_23_260be1ba-4d7f-4707-91a2-9d6ded12545f.png?v=1758791632"
+    },
+    {
+      "position": 5,
+      "alt": "Opti Pod - HydroSoft water treatment system by Hydropod, view 5",
+      "src": "/images/products/hp-sft-opti-5.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-opti-5.webp",
+        "800": "/images/products/hp-sft-opti-5-800.webp",
+        "400": "/images/products/hp-sft-opti-5-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_27_831d38e8-c25a-41b8-b8c8-ea77ddda7084.png?v=1758791632"
+    },
+    {
+      "position": 6,
+      "alt": "Opti Pod - HydroSoft water treatment system by Hydropod, view 6",
+      "src": "/images/products/hp-sft-opti-6.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-opti-6.webp",
+        "800": "/images/products/hp-sft-opti-6-800.webp",
+        "400": "/images/products/hp-sft-opti-6-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_20_acc5004f-bea9-4f9e-97b0-34f56fd9d53a.png?v=1758791632"
+    },
+    {
+      "position": 7,
+      "alt": "Opti Pod - HydroSoft water treatment system by Hydropod, view 7",
+      "src": "/images/products/hp-sft-opti-7.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-opti-7.webp",
+        "800": "/images/products/hp-sft-opti-7-800.webp",
+        "400": "/images/products/hp-sft-opti-7-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_22_9be7b0da-85c4-4c56-8c78-4bbfbdb04dc2.png?v=1758791632"
+    },
+    {
+      "position": 8,
+      "alt": "Opti Pod - HydroSoft water treatment system by Hydropod, view 8",
+      "src": "/images/products/hp-sft-opti-8.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-opti-8.webp",
+        "800": "/images/products/hp-sft-opti-8-800.webp",
+        "400": "/images/products/hp-sft-opti-8-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_25_246f18a8-d1ea-437c-a9a5-6ffd426b5b83.png?v=1758791632"
+    },
+    {
+      "position": 9,
+      "alt": "Opti Pod - HydroSoft water treatment system by Hydropod, view 9",
+      "src": "/images/products/hp-sft-opti-9.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-opti-9.webp",
+        "800": "/images/products/hp-sft-opti-9-800.webp",
+        "400": "/images/products/hp-sft-opti-9-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_28_25101f0a-68ed-4e2c-a95e-3523517e2e90.png?v=1758791632"
+    },
+    {
+      "position": 10,
+      "alt": "Opti Pod - HydroSoft water treatment system by Hydropod, view 10",
+      "src": "/images/products/hp-sft-opti-10.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-opti-10.webp",
+        "800": "/images/products/hp-sft-opti-10-800.webp",
+        "400": "/images/products/hp-sft-opti-10-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_21_4b9e1e35-df5f-4176-879d-c0737ac2d336.png?v=1758791632"
+    },
+    {
+      "position": 11,
+      "alt": "Opti Pod - HydroSoft water treatment system by Hydropod, view 11",
+      "src": "/images/products/hp-sft-opti-11.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-opti-11.webp",
+        "800": "/images/products/hp-sft-opti-11-800.webp",
+        "400": "/images/products/hp-sft-opti-11-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_19_7baa46bd-061c-44bc-b79e-6b8f3663bae2.png?v=1758791632"
+    },
+    {
+      "position": 12,
+      "alt": "Opti Pod - HydroSoft water treatment system by Hydropod, view 12",
+      "src": "/images/products/hp-sft-opti-12.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-opti-12.webp",
+        "800": "/images/products/hp-sft-opti-12-800.webp",
+        "400": "/images/products/hp-sft-opti-12-400.webp"
+      },
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/Untitleddesign.png?v=1759224774"
+    }
+  ],
+  "HP-SFT-HEXA": [
+    {
+      "position": 1,
+      "alt": "Hexa Pod - HydroSoft water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-sft-hexa-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-hexa-1.webp",
+        "800": "/images/products/hp-sft-hexa-1-800.webp",
+        "400": "/images/products/hp-sft-hexa-1-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILTPOD_15_04fcce17-456d-4007-ab3f-8cacbf88bfa6.png?v=1758610710"
+    },
+    {
+      "position": 2,
+      "alt": "Hexa Pod - HydroSoft water treatment system by Hydropod, view 2",
+      "src": "/images/products/hp-sft-hexa-2.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-hexa-2.webp",
+        "800": "/images/products/hp-sft-hexa-2-800.webp",
+        "400": "/images/products/hp-sft-hexa-2-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_24_3a8133d2-a48c-451f-9493-fe466dd8b078.png?v=1758791632"
+    },
+    {
+      "position": 3,
+      "alt": "Hexa Pod - HydroSoft water treatment system by Hydropod, view 3",
+      "src": "/images/products/hp-sft-hexa-3.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-hexa-3.webp",
+        "800": "/images/products/hp-sft-hexa-3-800.webp",
+        "400": "/images/products/hp-sft-hexa-3-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_26_685f9797-5c21-4d68-b749-8520dc9917a9.png?v=1758791632"
+    },
+    {
+      "position": 4,
+      "alt": "Hexa Pod - HydroSoft water treatment system by Hydropod, view 4",
+      "src": "/images/products/hp-sft-hexa-4.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-hexa-4.webp",
+        "800": "/images/products/hp-sft-hexa-4-800.webp",
+        "400": "/images/products/hp-sft-hexa-4-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_23_260be1ba-4d7f-4707-91a2-9d6ded12545f.png?v=1758791632"
+    },
+    {
+      "position": 5,
+      "alt": "Hexa Pod - HydroSoft water treatment system by Hydropod, view 5",
+      "src": "/images/products/hp-sft-hexa-5.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-hexa-5.webp",
+        "800": "/images/products/hp-sft-hexa-5-800.webp",
+        "400": "/images/products/hp-sft-hexa-5-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_20_acc5004f-bea9-4f9e-97b0-34f56fd9d53a.png?v=1758791632"
+    },
+    {
+      "position": 6,
+      "alt": "Hexa Pod - HydroSoft water treatment system by Hydropod, view 6",
+      "src": "/images/products/hp-sft-hexa-6.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-hexa-6.webp",
+        "800": "/images/products/hp-sft-hexa-6-800.webp",
+        "400": "/images/products/hp-sft-hexa-6-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_27_831d38e8-c25a-41b8-b8c8-ea77ddda7084.png?v=1758791632"
+    },
+    {
+      "position": 7,
+      "alt": "Hexa Pod - HydroSoft water treatment system by Hydropod, view 7",
+      "src": "/images/products/hp-sft-hexa-7.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-hexa-7.webp",
+        "800": "/images/products/hp-sft-hexa-7-800.webp",
+        "400": "/images/products/hp-sft-hexa-7-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_22_9be7b0da-85c4-4c56-8c78-4bbfbdb04dc2.png?v=1758791632"
+    },
+    {
+      "position": 8,
+      "alt": "Hexa Pod - HydroSoft water treatment system by Hydropod, view 8",
+      "src": "/images/products/hp-sft-hexa-8.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-hexa-8.webp",
+        "800": "/images/products/hp-sft-hexa-8-800.webp",
+        "400": "/images/products/hp-sft-hexa-8-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_25_246f18a8-d1ea-437c-a9a5-6ffd426b5b83.png?v=1758791632"
+    },
+    {
+      "position": 9,
+      "alt": "Hexa Pod - HydroSoft water treatment system by Hydropod, view 9",
+      "src": "/images/products/hp-sft-hexa-9.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-hexa-9.webp",
+        "800": "/images/products/hp-sft-hexa-9-800.webp",
+        "400": "/images/products/hp-sft-hexa-9-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_28_25101f0a-68ed-4e2c-a95e-3523517e2e90.png?v=1758791632"
+    },
+    {
+      "position": 10,
+      "alt": "Hexa Pod - HydroSoft water treatment system by Hydropod, view 10",
+      "src": "/images/products/hp-sft-hexa-10.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-hexa-10.webp",
+        "800": "/images/products/hp-sft-hexa-10-800.webp",
+        "400": "/images/products/hp-sft-hexa-10-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_21_4b9e1e35-df5f-4176-879d-c0737ac2d336.png?v=1758791632"
+    },
+    {
+      "position": 11,
+      "alt": "Hexa Pod - HydroSoft water treatment system by Hydropod, view 11",
+      "src": "/images/products/hp-sft-hexa-11.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-hexa-11.webp",
+        "800": "/images/products/hp-sft-hexa-11-800.webp",
+        "400": "/images/products/hp-sft-hexa-11-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_19_7baa46bd-061c-44bc-b79e-6b8f3663bae2.png?v=1758791632"
+    },
+    {
+      "position": 12,
+      "alt": "Hexa Pod - HydroSoft water treatment system by Hydropod, view 12",
+      "src": "/images/products/hp-sft-hexa-12.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-hexa-12.webp",
+        "800": "/images/products/hp-sft-hexa-12-800.webp",
+        "400": "/images/products/hp-sft-hexa-12-400.webp"
+      },
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/Untitleddesign_7.png?v=1759224774"
+    }
+  ],
+  "HP-SFT-PURPLE": [
+    {
+      "position": 1,
+      "alt": "Purple Pod - HydroSoft water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-sft-purple-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-purple-1.webp",
+        "800": "/images/products/hp-sft-purple-1-800.webp",
+        "400": "/images/products/hp-sft-purple-1-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_17.png?v=1758610813"
+    },
+    {
+      "position": 2,
+      "alt": "Purple Pod - HydroSoft water treatment system by Hydropod, view 2",
+      "src": "/images/products/hp-sft-purple-2.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-purple-2.webp",
+        "800": "/images/products/hp-sft-purple-2-800.webp",
+        "400": "/images/products/hp-sft-purple-2-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_24_3a8133d2-a48c-451f-9493-fe466dd8b078.png?v=1758791632"
+    },
+    {
+      "position": 3,
+      "alt": "Purple Pod - HydroSoft water treatment system by Hydropod, view 3",
+      "src": "/images/products/hp-sft-purple-3.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-purple-3.webp",
+        "800": "/images/products/hp-sft-purple-3-800.webp",
+        "400": "/images/products/hp-sft-purple-3-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_26_685f9797-5c21-4d68-b749-8520dc9917a9.png?v=1758791632"
+    },
+    {
+      "position": 4,
+      "alt": "Purple Pod - HydroSoft water treatment system by Hydropod, view 4",
+      "src": "/images/products/hp-sft-purple-4.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-purple-4.webp",
+        "800": "/images/products/hp-sft-purple-4-800.webp",
+        "400": "/images/products/hp-sft-purple-4-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_20_acc5004f-bea9-4f9e-97b0-34f56fd9d53a.png?v=1758791632"
+    },
+    {
+      "position": 5,
+      "alt": "Purple Pod - HydroSoft water treatment system by Hydropod, view 5",
+      "src": "/images/products/hp-sft-purple-5.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-purple-5.webp",
+        "800": "/images/products/hp-sft-purple-5-800.webp",
+        "400": "/images/products/hp-sft-purple-5-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_27_831d38e8-c25a-41b8-b8c8-ea77ddda7084.png?v=1758791632"
+    },
+    {
+      "position": 6,
+      "alt": "Purple Pod - HydroSoft water treatment system by Hydropod, view 6",
+      "src": "/images/products/hp-sft-purple-6.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-purple-6.webp",
+        "800": "/images/products/hp-sft-purple-6-800.webp",
+        "400": "/images/products/hp-sft-purple-6-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_23_260be1ba-4d7f-4707-91a2-9d6ded12545f.png?v=1758791632"
+    },
+    {
+      "position": 7,
+      "alt": "Purple Pod - HydroSoft water treatment system by Hydropod, view 7",
+      "src": "/images/products/hp-sft-purple-7.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-purple-7.webp",
+        "800": "/images/products/hp-sft-purple-7-800.webp",
+        "400": "/images/products/hp-sft-purple-7-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_25_246f18a8-d1ea-437c-a9a5-6ffd426b5b83.png?v=1758791632"
+    },
+    {
+      "position": 8,
+      "alt": "Purple Pod - HydroSoft water treatment system by Hydropod, view 8",
+      "src": "/images/products/hp-sft-purple-8.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-purple-8.webp",
+        "800": "/images/products/hp-sft-purple-8-800.webp",
+        "400": "/images/products/hp-sft-purple-8-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_22_9be7b0da-85c4-4c56-8c78-4bbfbdb04dc2.png?v=1758791632"
+    },
+    {
+      "position": 9,
+      "alt": "Purple Pod - HydroSoft water treatment system by Hydropod, view 9",
+      "src": "/images/products/hp-sft-purple-9.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-purple-9.webp",
+        "800": "/images/products/hp-sft-purple-9-800.webp",
+        "400": "/images/products/hp-sft-purple-9-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_28_25101f0a-68ed-4e2c-a95e-3523517e2e90.png?v=1758791632"
+    },
+    {
+      "position": 10,
+      "alt": "Purple Pod - HydroSoft water treatment system by Hydropod, view 10",
+      "src": "/images/products/hp-sft-purple-10.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-purple-10.webp",
+        "800": "/images/products/hp-sft-purple-10-800.webp",
+        "400": "/images/products/hp-sft-purple-10-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_21_4b9e1e35-df5f-4176-879d-c0737ac2d336.png?v=1758791632"
+    },
+    {
+      "position": 11,
+      "alt": "Purple Pod - HydroSoft water treatment system by Hydropod, view 11",
+      "src": "/images/products/hp-sft-purple-11.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-purple-11.webp",
+        "800": "/images/products/hp-sft-purple-11-800.webp",
+        "400": "/images/products/hp-sft-purple-11-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_19_7baa46bd-061c-44bc-b79e-6b8f3663bae2.png?v=1758791632"
+    },
+    {
+      "position": 12,
+      "alt": "Purple Pod - HydroSoft water treatment system by Hydropod, view 12",
+      "src": "/images/products/hp-sft-purple-12.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-purple-12.webp",
+        "800": "/images/products/hp-sft-purple-12-800.webp",
+        "400": "/images/products/hp-sft-purple-12-400.webp"
+      },
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/Untitleddesign_6.png?v=1759224774"
+    }
+  ],
+  "HP-SFT-AMBER": [
+    {
+      "position": 1,
+      "alt": "Amber Pod - HydroSoft water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-sft-amber-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-amber-1.webp",
+        "800": "/images/products/hp-sft-amber-1-800.webp",
+        "400": "/images/products/hp-sft-amber-1-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILTPOD_16_211874e7-7c5f-49fc-ad65-0a846e3d6bbe.png?v=1758610749"
+    },
+    {
+      "position": 2,
+      "alt": "Amber Pod - HydroSoft water treatment system by Hydropod, view 2",
+      "src": "/images/products/hp-sft-amber-2.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-amber-2.webp",
+        "800": "/images/products/hp-sft-amber-2-800.webp",
+        "400": "/images/products/hp-sft-amber-2-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_24_3a8133d2-a48c-451f-9493-fe466dd8b078.png?v=1758791632"
+    },
+    {
+      "position": 3,
+      "alt": "Amber Pod - HydroSoft water treatment system by Hydropod, view 3",
+      "src": "/images/products/hp-sft-amber-3.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-amber-3.webp",
+        "800": "/images/products/hp-sft-amber-3-800.webp",
+        "400": "/images/products/hp-sft-amber-3-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_23_260be1ba-4d7f-4707-91a2-9d6ded12545f.png?v=1758791632"
+    },
+    {
+      "position": 4,
+      "alt": "Amber Pod - HydroSoft water treatment system by Hydropod, view 4",
+      "src": "/images/products/hp-sft-amber-4.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-amber-4.webp",
+        "800": "/images/products/hp-sft-amber-4-800.webp",
+        "400": "/images/products/hp-sft-amber-4-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_26_685f9797-5c21-4d68-b749-8520dc9917a9.png?v=1758791632"
+    },
+    {
+      "position": 5,
+      "alt": "Amber Pod - HydroSoft water treatment system by Hydropod, view 5",
+      "src": "/images/products/hp-sft-amber-5.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-amber-5.webp",
+        "800": "/images/products/hp-sft-amber-5-800.webp",
+        "400": "/images/products/hp-sft-amber-5-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_27_831d38e8-c25a-41b8-b8c8-ea77ddda7084.png?v=1758791632"
+    },
+    {
+      "position": 6,
+      "alt": "Amber Pod - HydroSoft water treatment system by Hydropod, view 6",
+      "src": "/images/products/hp-sft-amber-6.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-amber-6.webp",
+        "800": "/images/products/hp-sft-amber-6-800.webp",
+        "400": "/images/products/hp-sft-amber-6-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_25_246f18a8-d1ea-437c-a9a5-6ffd426b5b83.png?v=1758791632"
+    },
+    {
+      "position": 7,
+      "alt": "Amber Pod - HydroSoft water treatment system by Hydropod, view 7",
+      "src": "/images/products/hp-sft-amber-7.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-amber-7.webp",
+        "800": "/images/products/hp-sft-amber-7-800.webp",
+        "400": "/images/products/hp-sft-amber-7-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_22_9be7b0da-85c4-4c56-8c78-4bbfbdb04dc2.png?v=1758791632"
+    },
+    {
+      "position": 8,
+      "alt": "Amber Pod - HydroSoft water treatment system by Hydropod, view 8",
+      "src": "/images/products/hp-sft-amber-8.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-amber-8.webp",
+        "800": "/images/products/hp-sft-amber-8-800.webp",
+        "400": "/images/products/hp-sft-amber-8-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_28_25101f0a-68ed-4e2c-a95e-3523517e2e90.png?v=1758791632"
+    },
+    {
+      "position": 9,
+      "alt": "Amber Pod - HydroSoft water treatment system by Hydropod, view 9",
+      "src": "/images/products/hp-sft-amber-9.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-amber-9.webp",
+        "800": "/images/products/hp-sft-amber-9-800.webp",
+        "400": "/images/products/hp-sft-amber-9-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_20_acc5004f-bea9-4f9e-97b0-34f56fd9d53a.png?v=1758791632"
+    },
+    {
+      "position": 10,
+      "alt": "Amber Pod - HydroSoft water treatment system by Hydropod, view 10",
+      "src": "/images/products/hp-sft-amber-10.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-amber-10.webp",
+        "800": "/images/products/hp-sft-amber-10-800.webp",
+        "400": "/images/products/hp-sft-amber-10-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_21_4b9e1e35-df5f-4176-879d-c0737ac2d336.png?v=1758791632"
+    },
+    {
+      "position": 11,
+      "alt": "Amber Pod - HydroSoft water treatment system by Hydropod, view 11",
+      "src": "/images/products/hp-sft-amber-11.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-amber-11.webp",
+        "800": "/images/products/hp-sft-amber-11-800.webp",
+        "400": "/images/products/hp-sft-amber-11-400.webp"
+      },
+      "width": 1587,
+      "height": 2245,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/FILT_POD_19_7baa46bd-061c-44bc-b79e-6b8f3663bae2.png?v=1758791632"
+    },
+    {
+      "position": 12,
+      "alt": "Amber Pod - HydroSoft water treatment system by Hydropod, view 12",
+      "src": "/images/products/hp-sft-amber-12.webp",
+      "srcset": {
+        "1200": "/images/products/hp-sft-amber-12.webp",
+        "800": "/images/products/hp-sft-amber-12-800.webp",
+        "400": "/images/products/hp-sft-amber-12-400.webp"
+      },
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/Untitleddesign_5.png?v=1759224774"
+    }
+  ],
+  "HP-CAP-IRON": [
+    {
+      "position": 1,
+      "alt": "Iron Buster - Hydro Cap water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-cap-iron-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-cap-iron-1.webp",
+        "800": "/images/products/hp-cap-iron-1-800.webp",
+        "400": "/images/products/hp-cap-iron-1-400.webp"
+      },
+      "width": 600,
+      "height": 650,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/WhatsAppImage2025-09-30at5.33.33PM_1.jpg?v=1759233898"
+    },
+    {
+      "position": 2,
+      "alt": "Iron Buster - Hydro Cap water treatment system by Hydropod, view 2",
+      "src": "/images/products/hp-cap-iron-2.webp",
+      "srcset": {
+        "1200": "/images/products/hp-cap-iron-2.webp",
+        "800": "/images/products/hp-cap-iron-2-800.webp",
+        "400": "/images/products/hp-cap-iron-2-400.webp"
+      },
+      "width": 600,
+      "height": 650,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/WhatsAppImage2025-09-30at5.33.33PM.jpg?v=1759233899"
+    },
+    {
+      "position": 3,
+      "alt": "Iron Buster - Hydro Cap water treatment system by Hydropod, view 3",
+      "src": "/images/products/hp-cap-iron-3.webp",
+      "srcset": {
+        "1200": "/images/products/hp-cap-iron-3.webp",
+        "800": "/images/products/hp-cap-iron-3-800.webp",
+        "400": "/images/products/hp-cap-iron-3-400.webp"
+      },
+      "width": 600,
+      "height": 650,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/WhatsAppImage2025-09-30at5.33.32PM.jpg?v=1759233899"
+    }
+  ],
+  "HP-CAP-HEXA": [
+    {
+      "position": 1,
+      "alt": "Hexa Buster - Hydro Cap water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-cap-hexa-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-cap-hexa-1.webp",
+        "800": "/images/products/hp-cap-hexa-1-800.webp",
+        "400": "/images/products/hp-cap-hexa-1-400.webp"
+      },
+      "width": 600,
+      "height": 650,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/WhatsAppImage2025-09-30at5.34.19PM.jpg?v=1759234075"
+    },
+    {
+      "position": 2,
+      "alt": "Hexa Buster - Hydro Cap water treatment system by Hydropod, view 2",
+      "src": "/images/products/hp-cap-hexa-2.webp",
+      "srcset": {
+        "1200": "/images/products/hp-cap-hexa-2.webp",
+        "800": "/images/products/hp-cap-hexa-2-800.webp",
+        "400": "/images/products/hp-cap-hexa-2-400.webp"
+      },
+      "width": 600,
+      "height": 650,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/WhatsAppImage2025-09-30at5.34.20PM_1.jpg?v=1759234075"
+    },
+    {
+      "position": 3,
+      "alt": "Hexa Buster - Hydro Cap water treatment system by Hydropod, view 3",
+      "src": "/images/products/hp-cap-hexa-3.webp",
+      "srcset": {
+        "1200": "/images/products/hp-cap-hexa-3.webp",
+        "800": "/images/products/hp-cap-hexa-3-800.webp",
+        "400": "/images/products/hp-cap-hexa-3-400.webp"
+      },
+      "width": 600,
+      "height": 650,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/WhatsAppImage2025-09-30at5.34.20PM.jpg?v=1759234075"
+    }
+  ],
+  "HP-CAP-PURPLE": [
+    {
+      "position": 1,
+      "alt": "Purple Cap - Hydro Cap water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-cap-purple-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-cap-purple-1.webp",
+        "800": "/images/products/hp-cap-purple-1-800.webp",
+        "400": "/images/products/hp-cap-purple-1-400.webp"
+      },
+      "width": 600,
+      "height": 650,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/WhatsAppImage2025-10-06at6.31.00PM.jpg?v=1759755761"
+    },
+    {
+      "position": 2,
+      "alt": "Purple Cap - Hydro Cap water treatment system by Hydropod, view 2",
+      "src": "/images/products/hp-cap-purple-2.webp",
+      "srcset": {
+        "1200": "/images/products/hp-cap-purple-2.webp",
+        "800": "/images/products/hp-cap-purple-2-800.webp",
+        "400": "/images/products/hp-cap-purple-2-400.webp"
+      },
+      "width": 600,
+      "height": 650,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/WhatsAppImage2025-10-06at6.31.01PM.jpg?v=1759755761"
+    },
+    {
+      "position": 3,
+      "alt": "Purple Cap - Hydro Cap water treatment system by Hydropod, view 3",
+      "src": "/images/products/hp-cap-purple-3.webp",
+      "srcset": {
+        "1200": "/images/products/hp-cap-purple-3.webp",
+        "800": "/images/products/hp-cap-purple-3-800.webp",
+        "400": "/images/products/hp-cap-purple-3-400.webp"
+      },
+      "width": 600,
+      "height": 650,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/WhatsAppImage2025-10-06at6.31.00PM_1.jpg?v=1759755761"
+    }
+  ],
+  "HP-CAP-AMBER": [
+    {
+      "position": 1,
+      "alt": "Amber Cap - Hydro Cap water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-cap-amber-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-cap-amber-1.webp",
+        "800": "/images/products/hp-cap-amber-1-800.webp",
+        "400": "/images/products/hp-cap-amber-1-400.webp"
+      },
+      "width": 600,
+      "height": 650,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/WhatsAppImage2025-09-30at5.36.44PM.jpg?v=1759235615"
+    },
+    {
+      "position": 2,
+      "alt": "Amber Cap - Hydro Cap water treatment system by Hydropod, view 2",
+      "src": "/images/products/hp-cap-amber-2.webp",
+      "srcset": {
+        "1200": "/images/products/hp-cap-amber-2.webp",
+        "800": "/images/products/hp-cap-amber-2-800.webp",
+        "400": "/images/products/hp-cap-amber-2-400.webp"
+      },
+      "width": 600,
+      "height": 650,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/WhatsAppImage2025-09-30at5.36.45PM_1.jpg?v=1759235615"
+    },
+    {
+      "position": 3,
+      "alt": "Amber Cap - Hydro Cap water treatment system by Hydropod, view 3",
+      "src": "/images/products/hp-cap-amber-3.webp",
+      "srcset": {
+        "1200": "/images/products/hp-cap-amber-3.webp",
+        "800": "/images/products/hp-cap-amber-3-800.webp",
+        "400": "/images/products/hp-cap-amber-3-400.webp"
+      },
+      "width": 600,
+      "height": 650,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/WhatsAppImage2025-09-30at5.36.45PM.jpg?v=1759235615"
+    }
+  ],
+  "HP-FLT-IRON": [
+    {
+      "position": 1,
+      "alt": "Iron Pod - Hydrofilt water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-flt-iron-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-flt-iron-1.webp",
+        "800": "/images/products/hp-flt-iron-1-800.webp",
+        "400": "/images/products/hp-flt-iron-1-400.webp"
+      },
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/Untitleddesign_1.png?v=1759224828"
+    },
+    {
+      "position": 2,
+      "alt": "Iron Pod - Hydrofilt water treatment system by Hydropod, view 2",
+      "src": "/images/products/hp-flt-iron-2.webp",
+      "srcset": {
+        "1200": "/images/products/hp-flt-iron-2.webp",
+        "800": "/images/products/hp-flt-iron-2-800.webp",
+        "400": "/images/products/hp-flt-iron-2-400.webp"
+      },
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/Untitleddesign_4.png?v=1759224828"
+    },
+    {
+      "position": 3,
+      "alt": "Iron Pod - Hydrofilt water treatment system by Hydropod, view 3",
+      "src": "/images/products/hp-flt-iron-3.webp",
+      "srcset": {
+        "1200": "/images/products/hp-flt-iron-3.webp",
+        "800": "/images/products/hp-flt-iron-3-800.webp",
+        "400": "/images/products/hp-flt-iron-3-400.webp"
+      },
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/Untitleddesign_3.png?v=1759224828"
+    },
+    {
+      "position": 4,
+      "alt": "Iron Pod - Hydrofilt water treatment system by Hydropod, view 4",
+      "src": "/images/products/hp-flt-iron-4.webp",
+      "srcset": {
+        "1200": "/images/products/hp-flt-iron-4.webp",
+        "800": "/images/products/hp-flt-iron-4-800.webp",
+        "400": "/images/products/hp-flt-iron-4-400.webp"
+      },
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/Untitleddesign_2.png?v=1759224828"
+    }
+  ],
+  "HP-FLT-CARBO": [
+    {
+      "position": 1,
+      "alt": "Carbo Pod - Hydrofilt water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-flt-carbo-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-flt-carbo-1.webp",
+        "800": "/images/products/hp-flt-carbo-1-800.webp",
+        "400": "/images/products/hp-flt-carbo-1-400.webp"
+      },
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/Untitleddesign_12.png?v=1759226231"
+    },
+    {
+      "position": 2,
+      "alt": "Carbo Pod - Hydrofilt water treatment system by Hydropod, view 2",
+      "src": "/images/products/hp-flt-carbo-2.webp",
+      "srcset": {
+        "1200": "/images/products/hp-flt-carbo-2.webp",
+        "800": "/images/products/hp-flt-carbo-2-800.webp",
+        "400": "/images/products/hp-flt-carbo-2-400.webp"
+      },
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/Untitleddesign_11.png?v=1759226231"
+    },
+    {
+      "position": 3,
+      "alt": "Carbo Pod - Hydrofilt water treatment system by Hydropod, view 3",
+      "src": "/images/products/hp-flt-carbo-3.webp",
+      "srcset": {
+        "1200": "/images/products/hp-flt-carbo-3.webp",
+        "800": "/images/products/hp-flt-carbo-3-800.webp",
+        "400": "/images/products/hp-flt-carbo-3-400.webp"
+      },
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/Untitleddesign_13.png?v=1759226231"
+    },
+    {
+      "position": 4,
+      "alt": "Carbo Pod - Hydrofilt water treatment system by Hydropod, view 4",
+      "src": "/images/products/hp-flt-carbo-4.webp",
+      "srcset": {
+        "1200": "/images/products/hp-flt-carbo-4.webp",
+        "800": "/images/products/hp-flt-carbo-4-800.webp",
+        "400": "/images/products/hp-flt-carbo-4-400.webp"
+      },
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/Untitleddesign_14.png?v=1759226231"
+    }
+  ],
+  "HP-FLT-FILT": [
+    {
+      "position": 1,
+      "alt": "Filt Pod - Hydrofilt water treatment system by Hydropod, view 1",
+      "src": "/images/products/hp-flt-filt-1.webp",
+      "srcset": {
+        "1200": "/images/products/hp-flt-filt-1.webp",
+        "800": "/images/products/hp-flt-filt-1-800.webp",
+        "400": "/images/products/hp-flt-filt-1-400.webp"
+      },
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/Untitleddesign_17.png?v=1759226622"
+    },
+    {
+      "position": 2,
+      "alt": "Filt Pod - Hydrofilt water treatment system by Hydropod, view 2",
+      "src": "/images/products/hp-flt-filt-2.webp",
+      "srcset": {
+        "1200": "/images/products/hp-flt-filt-2.webp",
+        "800": "/images/products/hp-flt-filt-2-800.webp",
+        "400": "/images/products/hp-flt-filt-2-400.webp"
+      },
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/Untitleddesign_16.png?v=1759226622"
+    },
+    {
+      "position": 3,
+      "alt": "Filt Pod - Hydrofilt water treatment system by Hydropod, view 3",
+      "src": "/images/products/hp-flt-filt-3.webp",
+      "srcset": {
+        "1200": "/images/products/hp-flt-filt-3.webp",
+        "800": "/images/products/hp-flt-filt-3-800.webp",
+        "400": "/images/products/hp-flt-filt-3-400.webp"
+      },
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://cdn.shopify.com/s/files/1/0651/7519/1670/files/Untitleddesign_18.png?v=1759226622"
+    }
+  ]
+}

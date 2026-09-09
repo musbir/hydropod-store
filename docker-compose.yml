@@ -1,0 +1,41 @@
+# Full local stack: storefront + PostgreSQL.
+#
+#   docker compose up --build
+#   docker compose exec web npm run db:schema
+#   docker compose exec web npm run db:seed
+#
+# Then open http://localhost:3000 (admin token below).
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: hydropod
+      POSTGRES_PASSWORD: hydropod
+      POSTGRES_DB: hydropod
+    ports:
+      - '5432:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U hydropod']
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  web:
+    build:
+      context: ./web
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgres://hydropod:hydropod@db:5432/hydropod
+      NEXT_PUBLIC_SITE_URL: http://localhost:3000
+      # Development value only — replace in any shared environment.
+      ADMIN_TOKEN: local-dev-admin-token
+    ports:
+      - '3000:3000'
+
+volumes:
+  pgdata:

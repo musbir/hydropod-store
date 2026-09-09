@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# next.js
+web/.next/
+web/out/
+web/next-env.d.ts
+web/.vercel/
+*.tsbuildinfo
+
+# runtime state for the JSON persistence driver
+web/.data/
+.data/
+
+# environment
+.env
+.env.local
+.env*.local
+!web/.env.example
+
+# raw crawl payloads: large, regenerable via scripts/01_extract.py
+data/raw/
+
+# os
+.DS_Store
+Thumbs.db
