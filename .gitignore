@@ -4,21 +4,20 @@ __pycache__/
 *.pyc
 
 # next.js
-web/.next/
-web/out/
-web/next-env.d.ts
-web/.vercel/
+.next/
+out/
+next-env.d.ts
+.vercel/
 *.tsbuildinfo
 
 # runtime state for the JSON persistence driver
-web/.data/
 .data/
 
 # environment
 .env
 .env.local
 .env*.local
-!web/.env.example
+!.env.example
 
 # raw crawl payloads: large, regenerable via scripts/01_extract.py
 data/raw/

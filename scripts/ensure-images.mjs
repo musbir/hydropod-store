@@ -16,9 +16,9 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const web = join(dirname(fileURLToPath(import.meta.url)), '..');
-const DATA = join(web, 'data');
-const DEST = join(web, 'public', 'images', 'products');
+const root = join(dirname(fileURLToPath(import.meta.url)), '..');
+const DATA = join(root, 'data');
+const DEST = join(root, 'public', 'images', 'products');
 const MANIFEST = join(DATA, 'image_manifest.json');
 
 const WIDTHS = [

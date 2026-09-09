@@ -15,23 +15,26 @@ water-treatment catalog at <https://hydropod.in>.
 
 ## What is here
 
+The Next.js app lives at the repository root, so Vercel and Docker need no
+root-directory configuration.
+
 ```
-data/                    Cleaned catalog: products.json/.csv, categories, anomalies, cleaning log
-scripts/                 Import pipeline (crawl -> clean -> images) + CI catalog validator
-web/                     Next.js 16 application (App Router, React 19, Tailwind)
-  src/app/               Routes: home, catalog, product, cart, checkout, order, supplier, admin, api
-  src/lib/               Catalog loader, pricing, slots, payments, auth, storage drivers
-  db/schema.sql          PostgreSQL schema
-  data/                  Catalog snapshot the build reads
-  public/images/products 294 optimised WebP renditions
-.github/workflows/       CI (typecheck, build, smoke test, catalog validation) + Vercel deploy
+src/app/                 Routes: home, catalog, product, cart, checkout, order, supplier, admin, api
+src/lib/                 Catalog loader, pricing, slots, payments, auth, storage drivers
+src/components/          Header, cart, gallery, checkout form, admin dashboard
+data/                    The catalog: products.json/.csv, categories, image manifest,
+                         anomalies, cleaning log. Written by the pipeline, imported by the build.
+public/images/products/  294 optimised WebP renditions
+scripts/                 Import pipeline (crawl -> clean -> images), image guard,
+                         database helpers, CI catalog validator
+db/schema.sql            PostgreSQL schema
+.github/workflows/       CI (typecheck, validate, build, smoke test) + Vercel deploy
 docker-compose.yml       Storefront + PostgreSQL for local parity
 ```
 
 ## Quick start
 
 ```bash
-cd web
 npm ci
 cp .env.example .env.local     # set ADMIN_TOKEN
 npm run dev
@@ -54,17 +57,23 @@ docker compose exec web npm run db:seed
 | 1. Extract | `scripts/01_extract.py` | `data/raw/` — products.json, collection membership, 34 product pages |
 | 2. Clean | `scripts/02_clean.py` | `data/products.json`, `.csv`, `categories.json`, `anomalies.csv`, `cleaning_log.md` |
 | 3. Images | `scripts/03_images.py` | 294 WebP renditions + `data/image_manifest.json` |
-| 4. Publish | `npm --prefix web run catalog:sync` | copies the catalog into `web/data/` |
-| 5. Verify | `scripts/validate_catalog.py` | fails CI on malformed catalog data |
+| 4. Verify | `scripts/validate_catalog.py` | fails CI on malformed catalog data |
+
+The pipeline writes straight into `data/`, which the build imports — there is no
+separate publish step.
 
 Re-import end to end:
 
 ```bash
 python scripts/01_extract.py && python scripts/02_clean.py && python scripts/03_images.py
-npm --prefix web run catalog:sync
 python scripts/validate_catalog.py
-npm --prefix web run build
+npm run build
 ```
+
+`02_clean.py` refuses to overwrite `data/` when a run yields fewer than half the
+products of the previous one, since that almost always means the crawl failed
+rather than that the distributor dropped its range. Pass `--force` when the drop
+is genuine.
 
 ### What cleaning changed
 
@@ -117,7 +126,7 @@ Persistence sits behind one interface (`src/lib/store/`) with two drivers:
 
 `cod` works out of the box. `upi`, `razorpay` and `paytm` each stay in a
 clearly-labelled **demo mode** until their credentials are set, and the checkout
-UI shows that badge to the customer. See `web/.env.example`.
+UI shows that badge to the customer. See `.env.example`.
 
 ## Documentation
 

@@ -90,17 +90,14 @@ python scripts/01_extract.py
 python scripts/02_clean.py
 python scripts/03_images.py
 
-# 2. Publish it into the app
-npm --prefix web run catalog:sync
-
-# 3. Check nothing is broken
+# 2. Check nothing is broken
 python scripts/validate_catalog.py
 
-# 4. Rebuild and deploy
-npm --prefix web run build
+# 3. Rebuild and deploy
+npm run build
 ```
 
-The sync step **refuses to run** if the new catalog has fewer than half the
+The cleaning step **refuses to write** if the new catalog has fewer than half the
 products of the current one — that almost always means the crawl failed rather
 than that the distributor deleted their range. Re-run the crawl first; use
 `--force` only if the reduction is genuine.
@@ -122,7 +119,7 @@ Images come from the distributor automatically. Each is resized to three widths
 product's SKU — so `HP-SFT-AMBER` has `hp-sft-amber-1.webp` and so on.
 
 To replace one by hand, drop a file with the same name into
-`web/public/images/products/` and rebuild. Keep the SKU-based name, or the
+`public/images/products/` and rebuild. Keep the SKU-based name, or the
 product will fall back to a placeholder.
 
 **Before you go live:** the imagery belongs to Hydropod and Doshion. Make sure
@@ -131,7 +128,7 @@ storefront. The `/supplier` page states this publicly; keep it accurate.
 
 ## 6. Things to check before launch
 
-- [ ] Replace the placeholder merchant identity in `web/src/lib/site.ts` — name,
+- [ ] Replace the placeholder merchant identity in `src/lib/site.ts` — name,
       GSTIN, address, phone, email
 - [ ] Review `/supplier` and remove the demonstration notice once the real
       details are in place

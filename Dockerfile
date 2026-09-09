@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 # Multi-stage build producing a minimal standalone Next.js server.
-# Build from the web/ directory:  docker build -t hydropod-store web/
+#   docker build -t hydropod-store .
 
 FROM node:22-alpine AS deps
 WORKDIR /app

@@ -436,6 +436,22 @@ def main():
                          "tagline": blurb, "product_count": len(members)})
     cats.sort(key=lambda c: -c["product_count"])
 
+    # ---- guard against a failed crawl overwriting a good catalog -----------
+    # data/ is read directly by the build, so a half-finished crawl would ship
+    # to the storefront. A sudden collapse in catalog size is the signature.
+    existing = os.path.join(OUT, "products.json")
+    if os.path.isfile(existing) and "--force" not in sys.argv:
+        try:
+            with open(existing, encoding="utf-8") as f:
+                previous = len(json.load(f))
+        except (ValueError, OSError):
+            previous = 0
+        if previous and len(cleaned) < previous * 0.5:
+            print("\nREFUSING TO WRITE: %d products this run, down from %d."
+                  % (len(cleaned), previous))
+            print("Re-run scripts/01_extract.py, or pass --force if the drop is real.")
+            return 1
+
     # ---- write -------------------------------------------------------------
     if not os.path.isdir(OUT):
         os.makedirs(OUT)
@@ -478,4 +494,5 @@ def main():
 
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-    main()
+    # Non-zero when the shrink guard refuses, so a piped pipeline stops here.
+    sys.exit(main() or 0)

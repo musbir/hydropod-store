@@ -16,7 +16,7 @@ import io, json, os, sys, time, urllib.request, urllib.error
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 DATA = os.path.join(ROOT, "data")
-DEST = os.path.join(ROOT, "web", "public", "images", "products")
+DEST = os.path.join(ROOT, "public", "images", "products")
 UA = "Mozilla/5.0 (compatible; hydropod-catalog-import/1.0)"
 
 WIDTHS = [(1200, ""), (800, "-800"), (400, "-400")]
@@ -109,7 +109,7 @@ def main():
     print("  source %.1f MB -> optimised %.1f MB across %d renditions (%.0f%% smaller)"
           % (total_src / 1e6, total_out / 1e6, ok * len(WIDTHS),
              100 * (1 - total_out / total_src) if total_src else 0))
-    print("  -> web/public/images/products/")
+    print("  -> public/images/products/")
 
 
 if __name__ == "__main__":

@@ -19,30 +19,28 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
+          # Next 16 requires >= 20.9; keep this in step with engines.node.
           node-version: 22
           cache: npm
-          cache-dependency-path: web/package-lock.json
 
       - name: Install
-        working-directory: web
         run: npm ci
 
       - name: Audit production dependencies
-        working-directory: web
         run: npm audit --omit=dev --audit-level=high
 
       - name: Typecheck
-        working-directory: web
         run: npm run typecheck
 
+      - name: Validate imported catalog
+        run: python scripts/validate_catalog.py
+
       - name: Build
-        working-directory: web
         run: npm run build
         env:
           NEXT_PUBLIC_SITE_URL: https://example.com
 
       - name: Smoke test the running app
-        working-directory: web
         env:
           ADMIN_TOKEN: ci-smoke-token
         run: |
@@ -61,11 +59,15 @@ jobs:
           test "$(jq -r .catalog.products /tmp/health.json)" -gt 0
 
           echo "--- storefront routes ---"
-          for path in / /catalog /supplier /cart /checkout; do
+          for path in / /catalog /supplier /cart /checkout /robots.txt /sitemap.xml; do
             code=$(curl -s -o /dev/null -w '%{http_code}' "http://localhost:3000$path")
             echo "  $path -> $code"
             test "$code" = "200"
           done
+
+          echo "--- a product page renders ---"
+          code=$(curl -s -o /dev/null -w '%{http_code}' http://localhost:3000/product/HP-SFT-AMBER)
+          test "$code" = "200"
 
           echo "--- admin is closed without a token ---"
           code=$(curl -s -o /dev/null -w '%{http_code}' http://localhost:3000/api/admin/products)
@@ -75,16 +77,3 @@ jobs:
           code=$(curl -s -o /dev/null -w '%{http_code}' \
             -H "x-admin-token: ci-smoke-token" http://localhost:3000/api/admin/products)
           test "$code" = "200"
-
-  catalog:
-    name: Validate imported catalog
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Check catalog integrity
-        run: python scripts/validate_catalog.py

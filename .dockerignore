@@ -2,8 +2,12 @@ node_modules
 .next
 .vercel
 .data
+.git
+.github
 .env
 .env.local
 *.tsbuildinfo
 Dockerfile
 .dockerignore
+docs
+data/raw

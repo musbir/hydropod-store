@@ -25,7 +25,7 @@ services:
 
   web:
     build:
-      context: ./web
+      context: .
     depends_on:
       db:
         condition: service_healthy

@@ -8,8 +8,8 @@ entries that do not have a corresponding optimised file on disk.
 import json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-WEB_DATA = os.path.join(ROOT, "web", "data")
-IMAGE_DIR = os.path.join(ROOT, "web", "public", "images", "products")
+DATA_DIR = os.path.join(ROOT, "data")
+IMAGE_DIR = os.path.join(ROOT, "public", "images", "products")
 
 SKU_RE = re.compile(r"^HP-[A-Z]{3}-[A-Z0-9-]+$")
 
@@ -17,7 +17,7 @@ errors, warnings = [], []
 
 
 def load(name):
-    with open(os.path.join(WEB_DATA, name), encoding="utf-8") as f:
+    with open(os.path.join(DATA_DIR, name), encoding="utf-8") as f:
         return json.load(f)
 
 

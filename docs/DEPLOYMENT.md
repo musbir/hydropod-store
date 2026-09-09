@@ -32,14 +32,26 @@ checkout UI. No money can move in that state.
 
 ## Vercel
 
-The app is a standard Next.js project; set the root directory to `web/`.
+The Next.js app is at the repository root, so **no Root Directory setting is
+needed** — import the repo and deploy.
+
+1. <https://vercel.com/new> → **Import Git Repository** → `musbir/hydropod-store`
+2. Add environment variables:
+   - `ADMIN_TOKEN` — required, or the merchant dashboard stays read-only
+   - `NEXT_PUBLIC_SITE_URL` — the URL Vercel assigns
+   - `DATABASE_URL` — optional; without it orders are not durable
+3. **Deploy**, then check `curl https://<your-url>/api/health`.
+
+`vercel.json` pins the framework and build commands. `engines.node` declares
+`>=20.9.0`, which is what Next 16 requires — if the project has **Node.js
+Version** pinned to 18.x in Settings, the build fails, so leave it at 22.x.
+
+From the CLI instead:
 
 ```bash
 npm i -g vercel
-cd web
 vercel link
 vercel env add ADMIN_TOKEN production
-vercel env add DATABASE_URL production
 vercel --prod
 ```
 
@@ -58,10 +70,15 @@ an approval.
 > and then vanish. Attach a database before taking real orders — Vercel
 > Postgres, Neon, Supabase and RDS all work with the standard connection string.
 
+Serving from Mumbai (`bom1`) suits an India-facing store: set it under
+**Project → Settings → Functions → Function Region**. It is deliberately not in
+`vercel.json`, because the allowed regions depend on your plan and a rejected
+value fails the build.
+
 ## Containers (AWS / Azure / DigitalOcean)
 
 ```bash
-docker build -t hydropod-store web/
+docker build -t hydropod-store .
 docker run -p 3000:3000 \
   -e ADMIN_TOKEN=... \
   -e DATABASE_URL=postgres://... \
@@ -77,8 +94,8 @@ health probe at the same path.
 
 ```bash
 export DATABASE_URL=postgres://user:pass@host:5432/hydropod
-npm --prefix web run db:schema   # create tables (idempotent)
-npm --prefix web run db:seed     # opening stock; keeps existing edits
+npm run db:schema   # create tables (idempotent)
+npm run db:seed       # opening stock; keeps existing edits
 ```
 
 `db:seed --force` resets prices, stock and offers to the imported values. It
@@ -90,7 +107,7 @@ catalog, and no migration is needed when the catalog changes.
 
 ## Image storage
 
-Images are imported, optimised and served from `web/public/`, so no object store
+Images are imported, optimised and served from `public/`, so no object store
 is required and there are no per-request egress costs. `Cache-Control:
 immutable` is set for a year and filenames are SKU-derived, so replacing an image
 means rebuilding.
@@ -119,7 +136,7 @@ you intended — this is the fastest way to catch a missing env var.
 
 ## Going live
 
-1. Replace the merchant identity in `web/src/lib/site.ts` (name, GSTIN, address,
+1. Replace the merchant identity in `src/lib/site.ts` (name, GSTIN, address,
    contact) and remove the demonstration notice from `/supplier`.
 2. Confirm the dealer agreement with Hydropod/Doshion covers reproducing product
    imagery and copy.
@@ -129,39 +146,3 @@ you intended — this is the fastest way to catch a missing env var.
 5. Replace the shared admin token with your SSO/IdP if more than one person
    needs dashboard access — `src/lib/auth.ts` is the single place to change.
 6. Set real stock levels in the dashboard.
-
-## Importing this repo into Vercel (2 minutes)
-
-The Vercel MCP connector used during development could deploy files but was not
-authorised for the projects/git API, so the project was not created
-automatically. Import it once by hand and every later push deploys itself.
-
-1. <https://vercel.com/new> → **Import Git Repository** → `musbir/hydropod-store`
-   (authorise GitHub access to the repo if prompted — it is private).
-2. **Root Directory: `web`.** This is the only setting that must be changed;
-   `web/vercel.json` supplies the framework and build commands.
-3. Add environment variables before the first deploy:
-   - `ADMIN_TOKEN` — required, or the dashboard stays read-only
-   - `NEXT_PUBLIC_SITE_URL` — the URL Vercel assigns, e.g. `https://hydropod-store.vercel.app`
-   - `DATABASE_URL` — optional; without it orders are not durable
-4. **Deploy.** The first build takes a few minutes: `prebuild` finds the
-   committed WebP renditions and skips regeneration, so it is only `npm install`
-   plus `next build`.
-5. Confirm with `curl https://<your-url>/api/health` — check `persistence` and
-   `gateways` read what you expect.
-
-Serving from Mumbai (`bom1`) suits an India-facing store: set it under
-**Project → Settings → Functions → Function Region**. It is deliberately not in
-`vercel.json`, because the allowed regions depend on your plan and a rejected
-value fails the build.
-
-### Alternatively, let the assistant deploy it
-
-Re-authenticate the Vercel connector so its token covers the `musbirk-9346`
-scope's project and git APIs. `create_git_project` then links the repo in one
-step. The failure to look for is:
-
-```
-403 forbidden — Not authorized: Trying to access resource under scope
-"musbirk-9346". You must re-authenticate to this scope.
-```
