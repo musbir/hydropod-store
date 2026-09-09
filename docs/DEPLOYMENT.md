@@ -129,3 +129,39 @@ you intended — this is the fastest way to catch a missing env var.
 5. Replace the shared admin token with your SSO/IdP if more than one person
    needs dashboard access — `src/lib/auth.ts` is the single place to change.
 6. Set real stock levels in the dashboard.
+
+## Importing this repo into Vercel (2 minutes)
+
+The Vercel MCP connector used during development could deploy files but was not
+authorised for the projects/git API, so the project was not created
+automatically. Import it once by hand and every later push deploys itself.
+
+1. <https://vercel.com/new> → **Import Git Repository** → `musbir/hydropod-store`
+   (authorise GitHub access to the repo if prompted — it is private).
+2. **Root Directory: `web`.** This is the only setting that must be changed;
+   `web/vercel.json` supplies the framework and build commands.
+3. Add environment variables before the first deploy:
+   - `ADMIN_TOKEN` — required, or the dashboard stays read-only
+   - `NEXT_PUBLIC_SITE_URL` — the URL Vercel assigns, e.g. `https://hydropod-store.vercel.app`
+   - `DATABASE_URL` — optional; without it orders are not durable
+4. **Deploy.** The first build takes a few minutes: `prebuild` finds the
+   committed WebP renditions and skips regeneration, so it is only `npm install`
+   plus `next build`.
+5. Confirm with `curl https://<your-url>/api/health` — check `persistence` and
+   `gateways` read what you expect.
+
+Serving from Mumbai (`bom1`) suits an India-facing store: set it under
+**Project → Settings → Functions → Function Region**. It is deliberately not in
+`vercel.json`, because the allowed regions depend on your plan and a rejected
+value fails the build.
+
+### Alternatively, let the assistant deploy it
+
+Re-authenticate the Vercel connector so its token covers the `musbirk-9346`
+scope's project and git APIs. `create_git_project` then links the repo in one
+step. The failure to look for is:
+
+```
+403 forbidden — Not authorized: Trying to access resource under scope
+"musbirk-9346". You must re-authenticate to this scope.
+```
